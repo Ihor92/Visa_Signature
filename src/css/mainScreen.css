@@ -1,0 +1,49 @@
+.mainScreen {
+  max-height: 100vh;
+  overflow: hidden;
+}
+
+.mainScreen__video {
+  padding-bottom: 56.25%;
+}
+
+.mainScreen__bgVideo {
+  width: 100%;
+  height: auto;
+  z-index: 2;
+}
+
+.mainScreen__content {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 3;
+}
+
+.mainScreen__titles {
+  width: var(--withMainContent);
+  margin: 0 auto;
+}
+
+.mainScreen__title {
+  font-family: var(--fontSf);
+  font-size: 35px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.8);
+  margin: 165px 0 0;
+}
+
+.mainScreen__subtitle {
+  font-family: var(--fontRoboto);
+  font-size: 64px;
+  text-align: center;
+  color: #fff;
+  margin: 4px 0 40px;
+}
+
+.mainScreen__visaCard {
+  margin: 0 auto;
+  display: block;
+}

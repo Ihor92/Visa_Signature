@@ -1,0 +1,17 @@
+@import "san_francisco.css";
+@import "mainScreen.css";
+@import "navbar.css";
+
+:root {
+  --fontRoboto: "Roboto", sans-serif;
+  --fontSf: "San Francisco", sans-serif;
+  --withMainContent: 66%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}

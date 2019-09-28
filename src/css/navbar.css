@@ -1,0 +1,38 @@
+.navbar {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 25px;
+}
+
+.navbar__wrap {
+  position: sticky;
+  top: 5px;
+  width: var(--withMainContent);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 50;
+  padding-bottom: 22px;
+}
+
+.navbar__burgerBtn {
+  background: transparent;
+  border: transparent;
+}
+
+.navbar__order {
+  width: 137px;
+  height: 33px;
+  background: #fff;
+  border: transparent;
+  border-radius: 23.5px;
+  color: #066eb0;
+}
+
+.navbar__burgerBtn:hover,
+.navbar__order:hover {
+  cursor: pointer;
+}

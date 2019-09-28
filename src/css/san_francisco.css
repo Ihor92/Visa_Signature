@@ -1,0 +1,9 @@
+@font-face {
+  font-family: "San Francisco";
+  src: url("../font/SFProDisplay-Light.woff");
+  src: local("San Francisco"),
+    local("San Francisco"),
+    url("../font/SFProDisplay-Light.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
