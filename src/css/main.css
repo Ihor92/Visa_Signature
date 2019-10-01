@@ -1,6 +1,7 @@
-@import "san_francisco.css";
+@import "fontFamilySanFrancisco.css";
 @import "mainScreen.css";
 @import "navbar.css";
+@import "services.css";
 
 :root {
   --fontRoboto: "Roboto", sans-serif;
@@ -13,5 +14,5 @@
 }
 
 body {
-  margin: 0;
+  margin: 0 auto;
 }

@@ -1,0 +1,12 @@
+.services {
+  width: 100%;
+}
+
+.services__section {
+  margin: 0 auto;
+  width: 80%;
+  background: url(../img/wingOfAirplane.png);
+  height: 1350px;
+  border-radius: 8px;
+  margin-bottom: 250px; /*delete this style*/
+}
