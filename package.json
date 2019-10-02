@@ -37,5 +37,8 @@
     "hooks": {
       "pre-push": "npm test"
     }
+  },
+  "dependencies": {
+    "npm": "^6.11.3"
   }
 }

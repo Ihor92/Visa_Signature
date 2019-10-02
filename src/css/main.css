@@ -2,6 +2,7 @@
 @import "mainScreen.css";
 @import "navbar.css";
 @import "services.css";
+@import "cards.css";
 
 :root {
   --fontRoboto: "Roboto", sans-serif;
