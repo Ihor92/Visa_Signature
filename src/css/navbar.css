@@ -18,6 +18,12 @@
   padding-bottom: 22px;
 }
 
+.navbar__buttons {
+  display: flex;
+  -ms-align-items: center;
+  align-items: center;
+}
+
 .navbar__burgerBtn {
   background: transparent;
   border: transparent;
@@ -30,6 +36,7 @@
   border: transparent;
   border-radius: 23.5px;
   color: #066eb0;
+  margin-left: 24px;
 }
 
 .navbar__burgerBtn:hover,

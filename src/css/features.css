@@ -1,0 +1,148 @@
+.features {
+  display: flex;
+  justify-content: space-around;
+  margin: 56px auto 0;
+  max-width: 994px;
+}
+
+.features__column {
+  max-width: 276px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 10px;
+}
+
+.features__column--center {
+  padding-top: 49px;
+}
+
+.features__column--right {
+  padding-top: 230px;
+}
+
+.features__card {
+  background: #fff;
+  border-radius: 12px;
+}
+
+.features_relative {
+  position: relative;
+}
+
+.features_yellow {
+  background: linear-gradient(180deg, #ffdf6b 0%, #ffd43c 100%);
+}
+
+.features_blue {
+  background: linear-gradient(180deg, #7a9fff 0%, #57d5f0 100%);
+  height: 225px;
+}
+
+.features_indent {
+  margin-bottom: 32px;
+  padding: 0 24px 10px;
+}
+
+.feature__highlighted {
+  font-family: var(--fontRoboto);
+  font-size: 14px;
+  color: #0f0f10;
+  text-decoration: none;
+}
+
+.features__vlhcLable--img {
+  margin-top: 24px;
+  width: 55px;
+  height: 60px;
+}
+
+.features__carLable--img {
+  width: 60%;
+  position: relative;
+  bottom: 10px;
+}
+
+.features__visaLable--img {
+  margin: 18px auto;
+  display: block;
+}
+
+.features__visaLable--wrap {
+  border: 1px solid rgba(0, 0, 0, 0.17);
+  border-radius: 8px;
+  width: 50px;
+  margin-top: 32px;
+}
+
+.features__polygonLable--img {
+  width: 28px;
+  border-radius: 8px;
+  margin: 10px auto;
+  display: block;
+}
+
+.features__polygonLable--wrap {
+  border: 1px solid rgba(0, 0, 0, 0.17);
+  border-radius: 8px;
+  margin-top: 32px;
+  width: 50px;
+}
+
+.features__agodaLable--img {
+  width: 49px;
+  border: 1px solid rgba(0, 0, 0, 0.17);
+  border-radius: 8px;
+  margin-top: 32px;
+}
+
+.features__baggageLable--img {
+  width: 70%;
+  position: relative;
+  right: 37px;
+}
+
+.features__subtitle {
+  font-family: var(--fontRoboto);
+  font-size: 20px;
+  color: #222;
+  font-weight: bold;
+  margin: 12px 0 0;
+}
+
+.features_carLable {
+  position: absolute;
+  top: 130px;
+}
+
+.features__details {
+  color: #4672e1;
+  font-family: var(--fontSf);
+  margin-bottom: 10px;
+  display: block;
+}
+
+.features__details-color {
+  color: #222;
+}
+
+.features__details::after {
+  content: ">";
+  color: #4672e1;
+  font-size: 14px;
+  padding-left: 7px;
+}
+
+.features__details-color::after {
+  color: #222;
+}
+
+.features__link {
+  padding: 0 24px;
+  text-decoration: none;
+}
+
+.features__link {
+  color: #0f0f10;
+  padding: 0;
+  text-decoration: underline;
+}

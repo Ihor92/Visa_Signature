@@ -1,5 +1,6 @@
 .services {
   width: 100%;
+  margin-top: 170px;
 }
 
 .services__section {
@@ -8,7 +9,7 @@
   background: url(../img/wingOfAirplane.png);
   height: 1350px;
   border-radius: 8px;
-  margin-bottom: 250px; /*delete this style*/
+  margin-bottom: 300px;
 }
 
 .services__subtitle {
@@ -16,10 +17,13 @@
   font-weight: bold;
   color: #fff;
   font-family: var(--fontRoboto);
+  padding: 64px 0 0 106px;
+  margin: 0;
 }
 
 .services__subtitleAdvertising {
   font-size: 20px;
   color: #fff;
   font-family: var(--fontRoboto);
+  padding: 18px 0 0 106px;
 }
