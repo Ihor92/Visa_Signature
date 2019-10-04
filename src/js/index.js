@@ -8,7 +8,7 @@ window.addEventListener('load', function () {
     const arad = Math.atan2(y, x);
     const angle = Math.abs(arad * 180 / Math.PI - 90);
 
-    gradient.style.background = `linear-gradient(${angle*7}deg, rgba(255,255,255,${angle/100}) 0%,rgba(255,255,255,1) 60%)`;
+    gradient.style.background = `linear-gradient(${angle*7}deg, rgba(255,255,255,${angle/100}) 15%, rgba(255,255,255,0) 100%)`;
   }
 
   gradientBlock.onmouseleave = function(event) {
@@ -16,3 +16,12 @@ window.addEventListener('load', function () {
   }
   
 }, false);
+
+function parallax(event) {
+  const classesForParallax = this.querySelectorAll('.services__section, .features');
+  classesForParallax.forEach(element => {
+    classesForParallax.style.transform = `translateY(${event.scroll}px)`
+  });
+}
+
+document.addEventListener('onscroll', parallax);
